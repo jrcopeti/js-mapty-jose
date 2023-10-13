@@ -118,7 +118,9 @@ class App {
     const { longitude } = position.coords;
 
     const coords = [latitude, longitude];
+    console.log(`https://www.google.com/maps/@${latitude},${longitude}`);
     this.#map = L.map('map').setView(coords, this.#mapZoomLevel);
+    console.log(map);
 
     L.tileLayer('https://tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
       attribution:
@@ -263,7 +265,7 @@ class App {
         <span class="workout__value">${workout.cadence}</span>
         <span class="workout__unit">spm</span>
       </div>
-      <button class="btn-delete">Delete</button>
+
 
     </li>`;
     if (workout.type === 'cycling')
@@ -325,3 +327,4 @@ class App {
 }
 // create a new instance of App
 const app = new App();
+
