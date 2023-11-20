@@ -1,6 +1,6 @@
 # 📍 Mapty: Track Your Workouts
 
-Mapty is an interactive web application built in vanilla JS to record your workouts on a map. Whether you're cycling or running, Mapty will keep a record of your adventures and physical accomplishments. It's part of JS course.
+Mapty is an interactive web application built in vanilla JS to record your workouts on a map. Whether you're cycling or running, Mapty will keep a record of your adventures and physical accomplishments. 
 
 ![Screenshot](screenshot1.png)
 
